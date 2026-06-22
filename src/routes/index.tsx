@@ -18,7 +18,7 @@ function HomePage() {
   const { data: featuredSongs } = useSuspenseQuery(convexQuery(api.songs.listFeatured, {}));
   const { data: latestSongs } = useSuspenseQuery(convexQuery(api.songs.listLatest, { 
     genre, 
-    search: deferredSearch.trim() || undefined 
+    search: (deferredSearch || "").trim() || undefined 
   }));
 
   // Player State
