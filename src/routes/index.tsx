@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Music, Play, ShoppingCart, Headphones, Mic2, Pause, Volume2, Camera, MessageCircle, Search, Filter } from "lucide-react";
+import { Music, Play, ShoppingCart, Headphones, Mic2, Pause, Volume2, Camera, MessageCircle, Search } from "lucide-react";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { convexQuery } from "@convex-dev/react-query";
 import { api } from "../../convex/_generated/api";

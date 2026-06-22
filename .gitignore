@@ -10,18 +10,6 @@ dist
 .env.test.local
 .env.production.local
 
-# tanstack router
-src/routeTree.gen.ts
-
-# ide
-.vscode
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 # os
 .DS_Store
 Thumbs.db
