@@ -1,9 +1,7 @@
 {
-  "version": 2,
   "cleanUrls": true,
-  "trailingSlash": false,
   "rewrites": [
-    { "source": "/assets/(.*)", "destination": "/dist/assets/$1" },
-    { "source": "/(.*)", "destination": "/dist/index.html" }
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

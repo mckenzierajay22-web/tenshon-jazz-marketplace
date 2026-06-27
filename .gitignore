@@ -1,8 +1,8 @@
 # node
 node_modules
 .npm
-.output
 dist
+.output
 
 # convex
 .env.local

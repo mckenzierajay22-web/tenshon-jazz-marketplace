@@ -11,8 +11,16 @@ export default defineConfig({
     tsconfigPaths(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: 'app.html',
+      },
+    },
+  },
   server: {
     port: 3000,
     host: true,
+    allowedHosts: true,
   },
 })
